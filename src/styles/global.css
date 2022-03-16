@@ -2,3 +2,11 @@
   margin: 0;
   padding: 0;
 }
+
+.topicTitle {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1.3px solid rgb(0, 140, 158);
+  min-width: 120px;
+  max-width: 350px;
+}
