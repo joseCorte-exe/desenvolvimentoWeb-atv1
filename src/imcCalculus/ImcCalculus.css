@@ -1,0 +1,39 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 15px 0 10px 0;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+input {
+  background-color: #dddddd;
+  border: 0;
+  margin: 10px 5px;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+button {
+  width: 10rem;
+  height: 3rem;
+
+  border-style: none;
+
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+
+  border-radius: 25px;
+}
