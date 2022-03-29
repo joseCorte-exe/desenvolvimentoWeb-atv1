@@ -66,11 +66,11 @@
         </table>
       <section>
           <label>Digite aqui seu peso</label>
-          <input type="number" name="weight" >
+          <input type="number" name="weight" id="weight" >
           <label>Digite aqui sua altura</label>
-          <input type="number" name="height" >
+          <input type="number" name="height" id="height" >
           <label>Seu IMC aparecera aqui</label>
-          <button>Enviar!</button>
+          <button onclick="CalcImc()" >Enviar!</button>
       </section>
     </main>
     <footer>
@@ -85,5 +85,7 @@
         </li>
       </ul>
     </footer>
+
+    <script src="../scripts/CalcImc.js"></script>
   </body>
 </html>
